@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { useState, FormEvent, useEffect } from 'react';
+import logoUrl from '../Trading_Sin_Fronteras_Logo__1_-removebg-preview.png'; import { useState, FormEvent, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { ChevronDown, Play, Check, Globe, Lock, ShieldCheck, Users, Zap, ArrowLeft, MessageCircle } from 'lucide-react';
 import { GoogleGenAI } from "@google/genai";
@@ -477,7 +477,7 @@ const MainLanding = () => {
         <div className="flex items-center gap-3">
           <Link to="/" className="flex items-center gap-3">
             <img 
-              src="https://cdn.jsdelivr.net/gh/ivangasolero/hoja-de-ruta-para-prospectos@main/Trading_Sin_Fronteras_Logo__1_-removebg-preview.png" 
+              src="{logoUrl}" 
               alt="TSF Logo" 
               className="w-10 h-10 object-contain"
               referrerPolicy="no-referrer"
@@ -488,7 +488,7 @@ const MainLanding = () => {
               }}
             />
             <div className="fallback-logo hidden w-10 h-10 bg-accent-cyan rounded-xl flex items-center justify-center text-black font-bold shadow-lg shadow-cyan-500/20">
-              <img src="https://cdn.jsdelivr.net/gh/ivangasolero/hoja-de-ruta-para-prospectos@main/Trading_Sin_Fronteras_Logo__1_-removebg-preview.png" alt="TSF Logo" style={{width: '35px', height: '35px', objectFit: 'contain'}} />
+              <img src="{logoUrl}" alt="TSF Logo" style={{width: '35px', height: '35px', objectFit: 'contain'}} />
               TSF
             </div>
             <span className="font-bold tracking-tight text-lg">Trading Sin Fronteras</span>
@@ -510,7 +510,7 @@ const MainLanding = () => {
         >
           <div className="relative mb-8">
             <img 
-              src="https://cdn.jsdelivr.net/gh/ivangasolero/hoja-de-ruta-para-prospectos@main/Trading_Sin_Fronteras_Logo__1_-removebg-preview.png" 
+              src="{logoUrl}" 
               alt="Trading Sin Fronteras Logo"
               className="w-48 md:w-64 h-auto drop-shadow-[0_0_15px_rgba(0,194,255,0.3) [mix-blend-mode:screen]]"
               referrerPolicy="no-referrer"
