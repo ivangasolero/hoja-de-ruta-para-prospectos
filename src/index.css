@@ -609,7 +609,7 @@ body {
 /* ── RESPONSIVE ── */
 @media (max-width: 768px) {
   .hero { padding: 80px 20px 60px; }
-  .step-inner { padding: 0 24px 24px 24px; }
+  .step-inner { padding: 0 24px 24px 24px; } }
   /* ── NAVBAR ── */
 .navbar {
   position: fixed;
