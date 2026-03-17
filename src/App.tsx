@@ -514,7 +514,7 @@ const MainLanding = () => {
               alt="Trading Sin Fronteras Logo"
               className="w-48 md:w-64 h-auto drop-shadow-[0_0_15px_rgba(0,194,255,0.3) [mix-blend-mode:screen]]"
               referrerPolicy="no-referrer"
-                          style={{mixBlendMode: 'lighten'}}
+                          style={{borderRadius: '50%'}}
               onError={(e) => {
                 e.currentTarget.style.display = 'none';
               }}
