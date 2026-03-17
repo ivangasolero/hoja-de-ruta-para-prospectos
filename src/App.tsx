@@ -512,7 +512,7 @@ const MainLanding = () => {
             <img 
               src="https://unavatar.io/youtube/TradingSinFronterastsf" 
               alt="Trading Sin Fronteras Logo"
-              className="w-48 md:w-64 h-auto drop-shadow-[0_0_15px_rgba(0,194,255,0.3)]"
+              className="w-48 md:w-64 h-auto drop-shadow-[0_0_15px_rgba(0,194,255,0.3) [mix-blend-mode:screen]]"
               referrerPolicy="no-referrer"
               onError={(e) => {
                 e.currentTarget.style.display = 'none';
@@ -520,9 +520,6 @@ const MainLanding = () => {
             />
           </div>
 
-          <div style={{display: 'flex', justifyContent: 'center', marginBottom: '20px'}}>
-            <img src="https://unavatar.io/youtube/TradingSinFronterastsf" alt="Trading Sin Fronteras" style={{width: '140px', objectFit: 'contain'}} />
-          </div>
           
           <h1>
             Convertite en un<br />
