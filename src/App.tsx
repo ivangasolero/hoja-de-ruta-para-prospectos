@@ -477,7 +477,7 @@ const MainLanding = () => {
         <div className="flex items-center gap-3">
           <Link to="/" className="flex items-center gap-3">
             <img 
-              src="/Trading_Sin_Fronteras_Logo.png" 
+              src="https://unavatar.io/youtube/TradingSinFronterastsf" 
               alt="TSF Logo" 
               className="w-10 h-10 object-contain"
               referrerPolicy="no-referrer"
@@ -488,7 +488,7 @@ const MainLanding = () => {
               }}
             />
             <div className="fallback-logo hidden w-10 h-10 bg-accent-cyan rounded-xl flex items-center justify-center text-black font-bold shadow-lg shadow-cyan-500/20">
-              <img src="/Trading_Sin_Fronteras_Logo.png" alt="TSF Logo" style={{width: '35px', height: '35px', objectFit: 'contain'}} />
+              <img src="https://unavatar.io/youtube/TradingSinFronterastsf" alt="TSF Logo" style={{width: '35px', height: '35px', objectFit: 'contain'}} />
               TSF
             </div>
             <span className="font-bold tracking-tight text-lg">Trading Sin Fronteras</span>
@@ -510,7 +510,7 @@ const MainLanding = () => {
         >
           <div className="relative mb-8">
             <img 
-              src="/Trading_Sin_Fronteras_Logo.png" 
+              src="https://unavatar.io/youtube/TradingSinFronterastsf" 
               alt="Trading Sin Fronteras Logo"
               className="w-48 md:w-64 h-auto drop-shadow-[0_0_15px_rgba(0,194,255,0.3)]"
               referrerPolicy="no-referrer"
@@ -521,7 +521,7 @@ const MainLanding = () => {
           </div>
 
           <div style={{display: 'flex', justifyContent: 'center', marginBottom: '20px'}}>
-            <img src="/Trading_Sin_Fronteras_Logo.png" alt="Trading Sin Fronteras" style={{width: '140px', objectFit: 'contain'}} />
+            <img src="https://unavatar.io/youtube/TradingSinFronterastsf" alt="Trading Sin Fronteras" style={{width: '140px', objectFit: 'contain'}} />
           </div>
           
           <h1>
