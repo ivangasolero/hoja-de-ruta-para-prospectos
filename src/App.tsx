@@ -160,7 +160,7 @@ const STEPS: StepData[] = [
     icon: '💳',
     tag: 'Paso 5 · Depósito',
     title: 'Realizá tu primer depósito',
-    description: 'Una vez verificada tu cuenta, hacé tu primer depósito. Podés empezar desde el mínimo recomendado. Elegí el método que más te convenga:',
+    description: 'Con un depósito mínimo de 200 USDT en el broker Vantage, accedés de inmediato a todo el sistema educativo de Trading Sin Fronteras. Además, por ser tu primer depósito, obtenés una bonificación del 150% sobre el monto depositado. Elegí el método de depósito que más te convenga:',
     bullets: [
       'Tarjeta: Visa / Mastercard instantáneo',
       'Cripto: USDT, BTC, ETH y más',
