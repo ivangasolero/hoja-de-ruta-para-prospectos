@@ -296,15 +296,7 @@ const VideoAssistant = ({ stepTitle, stepDescription, stepBullets }: { stepTitle
 };
 
 const FREE_COURSE_CLASSES = [
-  { id: 1, title: 'Clase 1: Introducción al Trading', videoId: 'kninYT2Gbo8' },
-  { id: 2, title: 'Clase 2: Estructura de Mercado', videoId: '6eSc4iUBhps' },
-  { id: 3, title: 'Clase 3: Soportes y Resistencias', videoId: 'dqJvl1o3TyE' },
-  { id: 4, title: 'Clase 4: Gestión de Riesgo', videoId: 'Xr-DgZvRF5E' },
-  { id: 5, title: 'Clase 5: Psicología del Trader', videoId: 'v_ocIcUnr98' },
-  { id: 6, title: 'Clase 6: Análisis Técnico', videoId: 'Yc3INjWxYLs' },
-  { id: 7, title: 'Clase 7: Operativa en Vivo', videoId: 'Dg9qsFKEfww' },
-  { id: 8, title: 'Clase 8: Plan de Trading', videoId: 'fPcvtU-LIoE' },
-  { id: 9, title: 'Clase 9: Conclusión y Siguiente Paso', videoId: 'tdSas36tIpE' },
+  { id: 1, title: 'Introducción al Trading', videoId: 'kninYT2Gbo8' },
 ];
 
 const CursoBasicoPage = () => {
@@ -330,7 +322,7 @@ const CursoBasicoPage = () => {
         >
           
           <h1 className="text-4xl md:text-6xl font-bold mb-6 text-center">
-            Curso básico – <span className="text-gold">Introducción al Trading</span>
+                          Introducción al Trading
           </h1>
           <p className="text-gray-400 max-w-3xl mx-auto text-lg leading-relaxed mb-10 text-center">
             Esta sección es para quienes están dando sus primeros pasos. Aquí aprenderás qué es el trading, cómo funcionan los mercados financieros y las bases necesarias antes de unirte a nuestra academia profesional.
@@ -346,12 +338,12 @@ const CursoBasicoPage = () => {
           </a>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20 w-full justify-items-center">
+                  <div className="flex justify-center mb-20 w-full">
           {FREE_COURSE_CLASSES.map((clase) => (
             <motion.div 
               key={clase.id}
               whileHover={{ y: -5 }}
-              className="bg-white/5 border border-cyan-500/20 rounded-2xl overflow-hidden hover:border-cyan-400/50 transition-all group w-full max-w-md backdrop-blur-md"
+                          className="bg-white/5 border border-cyan-500/20 rounded-2xl overflow-hidden hover:border-cyan-400/50 transition-all group w-full max-w-4xl"
             >
               <div className="aspect-video bg-black relative">
                 <iframe 
@@ -363,7 +355,7 @@ const CursoBasicoPage = () => {
                 />
               </div>
               <div className="p-6">
-                <div className="text-gold text-xs font-mono mb-2 uppercase tracking-widest">Módulo {clase.id}</div>
+                            <div className="text-gold text-xs font-mono mb-2 uppercase tracking-widest">Introducción al Trading</div>
                 <h3 className="font-bold text-lg group-hover:text-gold transition-colors">{clase.title}</h3>
               </div>
             </motion.div>
